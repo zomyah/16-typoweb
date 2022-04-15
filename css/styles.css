@@ -42,3 +42,59 @@ h1 {
   justify-content: space-around;
 }
 
+img {
+  max-width: 30px;
+}
+
+
+.test {
+  max-width:max-content;
+  margin-top: 5px;
+}
+
+main {
+  background-color: white;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: lighter;
+  padding: 20px 20px 20px 40px;
+  font-family: var(--font-family-h2);
+}
+
+p {
+  font-size: 16px;
+  font-family: var(--font-family-p);
+  margin: 20px 20px 40px 40px;
+}
+
+.map {
+  max-width: max-content;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+.logo-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 50px;
+  margin: 90px;
+}
+
+.text-test {
+	width: max-content; 
+	height:300px;
+	font-size:45px;
+  font-family: 'Vogue';
+}
